@@ -15,10 +15,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - url: alexwlchan.net
-            filename_prefix: alexwlchan.net
-          - url: books.alexwlchan.net
-            filename_prefix: books
+          - url: brunopulis.com
+            filename_prefix: brunopulis.com
 
       # Setting max-parallel ensures that these jobs will run in serial,
       # not parallel, so we don't have conflicting tasks trying to
